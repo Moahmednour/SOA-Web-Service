@@ -24,5 +24,4 @@ public class Soatp2Application implements CommandLineRunner {
 		offreRepository.save(new Offre(0, "Developpeur","informatique", "Talys", 3, "Tunisie"));
 		offreRepository.save(new Offre(0, "Architecte","informatique", "SIS", 2, "Allemagne"));
 	}
-
 }
